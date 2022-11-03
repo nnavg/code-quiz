@@ -1,0 +1,42 @@
+.question-card, .end-game, .start-game {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.end-game{
+    margin:0 auto; max-width: 600px; border: 1px solid black;
+} 
+
+.hide{
+    display: none;
+}
+span{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#body{
+    background-color: lightskyblue;
+}
+
+.start-game{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.button-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-box button{
+    width: 80px;
+    margin-bottom: 1em;
+}
+
+
